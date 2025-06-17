@@ -31,3 +31,4 @@ for quote, author in zip(quotes, authors):
     print(quote.text + " ~ " + author.text)
     writer.writerow([quote.text, author.text])
 file.close()
+# Video by tinkernut
